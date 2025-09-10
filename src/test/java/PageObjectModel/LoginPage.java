@@ -26,6 +26,7 @@ public class LoginPage {
     WebElement DashBoardText;
 
     public void EnterUserName (String userName) {
+        useNameTextBox.click();
         useNameTextBox.sendKeys(userName);
     }
     public void EnterPassword (String passWord) {
